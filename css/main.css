@@ -531,3 +531,9 @@ h6{color:#fff;margin-bottom:25px;font-size:18px;font-weight:600;}
 .section-top-border{padding:70px;border-top:1px dotted #eee;}
 .switch-wrap{margin-bottom:10px;}
 .switch-wrap p{margin:0;}
+
+.counter-input{
+    margin: auto !important;
+    width: 50% !important;
+    padding-bottom: 10px;
+}
