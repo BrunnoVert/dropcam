@@ -572,7 +572,7 @@
 								,00
 							</h6>
 							<h6>R$
-								<span id="price-black-promo">197</span> 
+								<span id="price-black-promo">197</span>
 								,00
 							</h6>
 							<div class="counter">
@@ -585,7 +585,7 @@
 												<i class="fa fa-minus"></i>
 											</button>
 										</span>
-										<input type="text" id="quantity-black" name="quantity" autocomplete="off"
+										<input disabled type="text" id="quantity-black" name="quantity" autocomplete="off"
 											class="form-control input-number text-align-center" value="1" min="1" max="10">
 										<span class="input-group-btn">
 											<button type="button"
@@ -597,7 +597,7 @@
 									</div>
 								</div>
 							</div>
-							<a  class="text-uppercase primary-btn" 
+							<a  class="text-uppercase primary-btn"
 								id="buy-black"
 								href="https://seguro.vegaz.com.br/r/E0R1858NX1">COMPRAR AGORA</a>
 						</div>
@@ -617,7 +617,7 @@
 								,00
 							</h6>
 							<h6>R$
-								<span id="price-white-promo">197</span> 
+								<span id="price-white-promo">197</span>
 								,00
 							</h6>
 							<div class="counter">
@@ -630,7 +630,7 @@
 												<i class="fa fa-minus"></i>
 											</button>
 										</span>
-										<input type="text" id="quantity-white" name="quantity" autocomplete="off"
+										<input disabled type="text" id="quantity-white" name="quantity" autocomplete="off"
 											class="form-control input-number text-align-center" value="1" min="1" max="10">
 										<span class="input-group-btn">
 											<button type="button"
@@ -642,7 +642,7 @@
 									</div>
 								</div>
 							</div>
-							<a  class="text-uppercase primary-btn" 
+							<a  class="text-uppercase primary-btn"
 								id="buy-white"
 								href="https://seguro.vegaz.com.br/r/BITYK5JM7O">COMPRAR AGORA</a>
 						</div>
@@ -1234,7 +1234,7 @@
 				}
 			});
 
-			//black 
+			//black
 			$('.black-plus').click(function (e) {
 				// Stop acting like a button
 				e.preventDefault();
@@ -1273,7 +1273,7 @@
 				$('#price-black-promo').text(pricePromo);
 			}
 
-			function updateOfferWhite(qty){	
+			function updateOfferWhite(qty){
 				const href = whiteUrlArray[qty-1]
 				updateWhiteButton(href);
 				const priceOld = qty * baseValueOld;
